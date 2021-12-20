@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open(r"C:\Users\SOMAY\OneDrive\Desktop\Projects\Flight Fare Prediction\RF_reg_1.pkl", "rb"))
+model = pickle.load(open("RF_reg_1.pkl", "rb"))
 
 
 @app.route("/")
