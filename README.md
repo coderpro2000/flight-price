@@ -10,16 +10,20 @@ The main goal is to predict the fares of the flights based on different factors 
 # Approach:
 The classical machine learning tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and Model Testing. Try out different machine learning algorithms that’s best fit for the above case.
 
-Dataset:
+# Dataset:
 
+https://github.com/coderpro2000/flight-price/tree/main/Data
 
 # Project Various Step
+
 # Data Exploration
 I started exploring datasets using pandas, NumPy,matplotlib and seaborn.
 
-# Data cleaning.
-#Data visualization
+
+# Data visualization
 Ploted colleration matrix to get insights about dependend and independed variables. Made chats like( Bocxplot,countplot,distplot,pairplot).
+
+![](https://github.com/coderpro2000/flight-price/blob/main/Docs/vis.png)
 
 # Model Selection
 Made many Models But selected RandomForest Regressor.
@@ -33,9 +37,13 @@ As per selected trained model is dumped to pickled format for app development
 # Ide used Pycharm
 ![](https://github.com/coderpro2000/flight-price/blob/main/Docs/soft.png)
 
+# Model Accuracy 
+81.2%
+
+
 
 # Deployed:
-Deployed on heroku
+Deployed on heroku -- https://airplanepricepredictor.herokuapp.com/predict
 
 
 
