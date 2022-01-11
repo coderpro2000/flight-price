@@ -31,6 +31,7 @@ Using Randomizedsearch CV and GridSearch CV to select the best parameter for tra
 As per selected trained model is dumped to pickled format for app development
 
 # Ide used Pycharm
+![](https://github.com/coderpro2000/flight-price/blob/main/Docs/soft.png)
 
 
 # Deployed:
